@@ -39,3 +39,23 @@ h2 {
 input {
   margin-right: 5px;
 }
+.container {
+	border: 1px solid;
+	margin: 0;
+	padding: 5% 10%;
+	width: fit-content;
+}
+.day {
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+}
+.conditions {
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.high:after, .low:after {
+	content: '\00b0';
+	padding: 1px;
+}
+p { text-align: left; }
